@@ -145,13 +145,10 @@ footer nav ul a{
 ///////////////////////////////////////////////////////////////////*/
 
 section #skills{
-
 	padding: 0;
   margin: 0;
   list-style: none;
-
   display: flex;
-
   -webkit-flex-flow: row wrap;
   justify-content: center;
 }
@@ -163,12 +160,20 @@ section .skill{
 	flex-grow: 0;
 	flex-shrink: 2;
 	text-align: center;
-
 	background: grey;
   padding: 5px;
   margin: 0.25rem;
-
   line-height: 8rem;
   color: white;
   text-align: center;
+}
+
+section#portfolio .container{
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	justify-content: center;
+}
+section#portfolio .portfolio-project{
+	display: inline-block;
+	width: 19rem;
 }
