@@ -117,9 +117,6 @@ li{
 /*///////////////////////////////////////////////////////////////////
 1.3 Layout
 ///////////////////////////////////////////////////////////////////*/
-header h1#logo{
-	text-align: right;
-}
 footer{
 	background-color: black;
 }
@@ -144,36 +141,23 @@ footer nav ul a{
 1.1 Home page
 ///////////////////////////////////////////////////////////////////*/
 
-section #skills{
-	padding: 0;
-  margin: 0;
-  list-style: none;
-  display: flex;
-  -webkit-flex-flow: row wrap;
-  justify-content: center;
-}
-section .skill{
-	margin: 0;
-	padding: 0;
-	width: 8rem;
-	height: 8rem;
-	flex-grow: 0;
-	flex-shrink: 2;
-	text-align: center;
-	background: grey;
-  padding: 5px;
-  margin: 0.25rem;
-  line-height: 8rem;
-  color: white;
-  text-align: center;
-}
-
 section#portfolio .container{
 	display: flex;
 	-webkit-flex-flow: row wrap;
 	justify-content: center;
 }
+section#portfolio h3{
+	font-size: 1rem;
+}
 section#portfolio .portfolio-project{
-	display: inline-block;
-	width: 19rem;
+	margin: 0;
+	padding: 0;
+	width: 8rem;
+	height: 8rem;
+	flex-grow: 2;
+	background: grey;
+  padding: 0.5rem;
+  margin: 0.25rem;
+  color: white;
+  text-align: center;
 }
