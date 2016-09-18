@@ -141,18 +141,16 @@ footer nav ul a{
 1.1 Home page
 ///////////////////////////////////////////////////////////////////*/
 
-section#portfolio .container{
+section#portfolio .container, section#dev_logs{
 	display: flex;
 	-webkit-flex-flow: row wrap;
-	justify-content: center;
 }
-section#portfolio h3{
+section#portfolio h3, section#dev_logs h3{
 	font-size: 1rem;
 }
-section#portfolio .portfolio-project{
+section#portfolio .portfolio-project, .dev_log{
 	margin: 0;
 	padding: 0;
-	width: 8rem;
 	height: 8rem;
 	flex-grow: 2;
 	background: grey;
@@ -160,4 +158,10 @@ section#portfolio .portfolio-project{
   margin: 0.25rem;
   color: white;
   text-align: center;
+}
+section#portfolio .portfolio-project{
+	width: 8rem;
+}
+.dev_log{
+	width: 4rem;
 }
