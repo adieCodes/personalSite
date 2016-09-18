@@ -18,7 +18,7 @@
   <div id="main" class="site-main">
     <section id="hero">
       <p>Mobile-first Responsive Front-Ends <span class="de-emphasis">using:</span></p>
-      <ul>
+      <ul class="horizontal-list">
         <li>HTML</li>
         <li>CSS</li>
         <li>JavaScript</li>
@@ -28,45 +28,52 @@
     <section id="portfolio" class="portfolio-area">
       <h2>Check out my work...</h2>
       <p>I've completed some projects to demonstrate my knowledge, have a look and let me know what you think:</p>
-      <div class="container">
-        <div class="portfolio-project">
+      <div class="container flex-rw">
+        <div class="portfolio-project sm-2">
            <h3>Wikipedia Viewer</h3>
            <a href="portfolio/portfolio-wikipediaViewer.html" class="case-study">Case study</a>
         </div><!-- .portfolio-project -->
-        <div class="portfolio-project">
+        <div class="portfolio-project sm-2">
           <h3>Pomodoro Timer</h3>
           <a href="portfolio/portfolio-pomodoro.html" class="case-study">Case Study</a>
         </div><!-- .portfolio-project -->
       </div><!-- .container -->
-      <a href="#">here's some more</a>
+      <p>You can see more on:</p>
+      <ul class="horizontal-list">
+        <li><a href="portfolio">/Portfolio</a></li>
+        <li><a href="#">Codepen</a></li>
+        <li><a href="#">GitHub</a></li>
+      </ul>
     </section><!-- #portfolio .portfolio-area -->
-    <section id="dev_logs" class="dev_log-area">
+    <section id="dev_logs" class="dev_log-area flex-rw">
       <h2>I logs what I thinks...</h2>
       <p>It helps me stay on track, recall solutions to problems I've already faced and  identify any areas for further learning. My latest are here:</p>
-      <div class="dev_log">
+      <div class="dev_log sm-3">
         <a href="#"><h3>13/09/2016</h3></a>
       </div><!-- .dev_log -->
-      <div class="dev_log">
+      <div class="dev_log sm-3">
         <a href="#"><h3>12/09/2016</h3></a>
       </div><!-- .dev_log -->
-      <div class="dev_log">
+      <div class="dev_log sm-3">
         <a href="#"><h3>11/09/2016</h3></a>
       </div><!-- .dev_log -->
       <a href="#">Even more logs</a>
     </section><!-- #dev_log .dev_log-area -->
     <section id="social" class="social-area">
       <h2>I'm also on:</h2>
-      <a href="#" class="social-twitter">Twitter</a>
-      <a href="#" class="social-github">GitHub</a>
-      <a href="#" class="social-codepen">CodePen</a>
+      <ul class="horizontal-list">
+        <li><a href="#" class="social-twitter">Twitter</a></li>
+        <li><a href="#" class="social-github">GitHub</a></li>
+        <li><a href="#" class="social-codepen">CodePen</a></li>
+      </ul>
     </section>
   </div><!-- #main .site-main -->
   <footer id="colophon" class="site-footer" role="contentinfo">
     <nav role="navigation" class="site-navigation main-navigation">
-      <ul>
-        <a href="about.html"><li>About</li></a>
-        <a href="#"><li>Portfolio</li></a>
-        <a href="#"><li>Dev logs</li></a>
+      <ul class="horizontal-list">
+        <li><a href="about.html">About</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Dev logs</a></li>
       </ul>
     </nav><!-- .site-navigation .main-navigation -->
   </footer><!-- #colophon .site-footer -->

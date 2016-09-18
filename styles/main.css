@@ -117,17 +117,42 @@ li{
 /*///////////////////////////////////////////////////////////////////
 1.3 Layout
 ///////////////////////////////////////////////////////////////////*/
-footer{
-	background-color: black;
+.flex-rw{
+	display: flex;
+	-webkit-flex-flow: row wrap;
 }
-footer nav ul{
+.sm-2, .sm-3{
+	margin: 0;
+	padding: 0;
+	height: 8rem;
+	flex-grow: 2;
+	padding: 0.5rem;
+  margin: 0.25rem;
+	text-align: center;
+	background: grey;
+  color: white;
+}
+.sm-2{
+	width: 8rem;
+}
+.sm-3{
+	width: 4rem;
+}
+.horizontal-list{
 	list-style: none;
 	display: flex;
 	flex-wrap: nowrap;
 }
-footer nav ul a{
-	width: 33%;
+horizontal-list>li{
 	text-align: center;
+}
+footer{
+	background-color: black;
+}
+footer nav ul li{
+	width: 33%;
+}
+footer nav ul li a{
 	color: white;
 }
 
@@ -138,30 +163,9 @@ footer nav ul a{
 ///////////////////////////////////////////////////////////////////*/
 
 /*///////////////////////////////////////////////////////////////////
-1.1 Home page
+2.1 Home page
 ///////////////////////////////////////////////////////////////////*/
 
-section#portfolio .container, section#dev_logs{
-	display: flex;
-	-webkit-flex-flow: row wrap;
-}
 section#portfolio h3, section#dev_logs h3{
 	font-size: 1rem;
-}
-section#portfolio .portfolio-project, .dev_log{
-	margin: 0;
-	padding: 0;
-	height: 8rem;
-	flex-grow: 2;
-	background: grey;
-  padding: 0.5rem;
-  margin: 0.25rem;
-  color: white;
-  text-align: center;
-}
-section#portfolio .portfolio-project{
-	width: 8rem;
-}
-.dev_log{
-	width: 4rem;
 }
