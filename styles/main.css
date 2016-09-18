@@ -7,6 +7,7 @@
 		1.3 Layout
 	2. Page specific
 		2.1 Home page
+			2.1.1 Typography
 
 /////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////*/
@@ -78,18 +79,15 @@ body{
   font-size: 16px;
   line-height: 1.25;
 }
-body header, body section, body footer{
-	padding: 0.5rem;
-}
 h1{
-  font-size: 2.5rem;
-  font-weight: bold;
-  line-height: 1.5;
-}
-h2{
   font-size: 2rem;
   font-weight: bold;
-  line-height: 1.5;
+  line-height: 1.9;
+}
+h2{
+  font-size: 1.75rem;
+  font-weight: bold;
+  line-height: 1.7;
 }
 h3{
   font-size: 1.5rem;
@@ -113,30 +111,35 @@ ol{
 li{
 	margin-left: 1rem;
 }
+.de-emphasis{
+	display: block;
+	font-size: 0.75em;
+}
 
 /*///////////////////////////////////////////////////////////////////
 1.3 Layout
 ///////////////////////////////////////////////////////////////////*/
-.flex-rw{
+.pd{
+	padding: 0 0.5rem;
+}
+div#main{
+	margin-bottom: 2rem;
+}
+.flex-parent-rw{
 	display: flex;
 	-webkit-flex-flow: row wrap;
 }
-.sm-2, .sm-3{
+.flex-child-mdl {
 	margin: 0;
 	padding: 0;
-	height: 8rem;
 	flex-grow: 2;
-	padding: 0.5rem;
-  margin: 0.25rem;
 	text-align: center;
+}
+section .content-block{
+	height: 8rem;
+	padding: 0.5rem;
 	background: grey;
   color: white;
-}
-.sm-2{
-	width: 8rem;
-}
-.sm-3{
-	width: 4rem;
 }
 .horizontal-list{
 	list-style: none;
@@ -148,9 +151,12 @@ horizontal-list>li{
 }
 footer{
 	background-color: black;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
 }
-footer nav ul li{
-	width: 33%;
+footer nav {
+	bottom: 2rem;
 }
 footer nav ul li a{
 	color: white;
@@ -158,7 +164,7 @@ footer nav ul li a{
 
 /*///////////////////////////////////////////////////////////////////
 
-2 Page specific
+2. Page specific
 
 ///////////////////////////////////////////////////////////////////*/
 
@@ -166,6 +172,12 @@ footer nav ul li a{
 2.1 Home page
 ///////////////////////////////////////////////////////////////////*/
 
+/*///////	2.1.1 Typography 			///////////////////////////////////*/
+
 section#portfolio h3, section#dev_logs h3{
 	font-size: 1rem;
+}
+section#hero p{
+	font-size: 1.25rem;
+	text-align: center;
 }

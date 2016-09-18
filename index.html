@@ -12,68 +12,66 @@
 </head>
 
 <body>
-  <header id="masthead" class="site-header" role="banner">
+  <header id="masthead" class="site-header pd" role="banner">
      <h1 id="logo">Adie.codes</h1>
   </header><!-- #masthead .site-header -->
   <div id="main" class="site-main">
     <section id="hero">
-      <p>Mobile-first Responsive Front-Ends <span class="de-emphasis">using:</span></p>
-      <ul class="horizontal-list">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>WordPress</li>
+      <p>Mobile-first Responsive Front-Ends <span class="de-emphasis">using</span></p>
+      <ul class="horizontal-list flex-parent-rw">
+        <li class="flex-child-mdl">HTML</li>
+        <li class="flex-child-mdl">CSS</li>
+        <li class="flex-child-mdl">JavaScript</li>
+        <li class="flex-child-mdl">WordPress</li>
       </ul>
     </section>
     <section id="portfolio" class="portfolio-area">
-      <h2>Check out my work...</h2>
-      <p>I've completed some projects to demonstrate my knowledge, have a look and let me know what you think:</p>
-      <div class="container flex-rw">
-        <div class="portfolio-project sm-2">
+      <h2 class="pd">Check out my work...</h2>
+      <p class="pd">I've completed some projects to demonstrate my knowledge, have a look and let me know what you think:</p>
+      <div class="container flex-parent-rw">
+        <div class="portfolio-project flex-child-mdl content-block">
            <h3>Wikipedia Viewer</h3>
            <a href="portfolio/portfolio-wikipediaViewer.html" class="case-study">Case study</a>
         </div><!-- .portfolio-project -->
-        <div class="portfolio-project sm-2">
+        <div class="portfolio-project flex-child-mdl content-block">
           <h3>Pomodoro Timer</h3>
           <a href="portfolio/portfolio-pomodoro.html" class="case-study">Case Study</a>
         </div><!-- .portfolio-project -->
-      </div><!-- .container -->
-      <p>You can see more on:</p>
-      <ul class="horizontal-list">
-        <li><a href="portfolio">/Portfolio</a></li>
-        <li><a href="#">Codepen</a></li>
-        <li><a href="#">GitHub</a></li>
+      </div><!-- .container .flex-rw -->
+      <p class="pd">You can see more on:</p>
+      <ul class="horizontal-list flex-parent-rw">
+        <li class="flex-child-mdl"><a href="portfolio">/Portfolio</a></li>
+        <li class="flex-child-mdl"><a href="#">Codepen</a></li>
+        <li class="flex-child-mdl"><a href="#">GitHub</a></li>
       </ul>
     </section><!-- #portfolio .portfolio-area -->
-    <section id="dev_logs" class="dev_log-area flex-rw">
+    <section id="dev_logs" class="dev_log-area pd">
       <h2>I logs what I thinks...</h2>
       <p>It helps me stay on track, recall solutions to problems I've already faced and  identify any areas for further learning. My latest are here:</p>
-      <div class="dev_log sm-3">
-        <a href="#"><h3>13/09/2016</h3></a>
-      </div><!-- .dev_log -->
-      <div class="dev_log sm-3">
-        <a href="#"><h3>12/09/2016</h3></a>
-      </div><!-- .dev_log -->
-      <div class="dev_log sm-3">
-        <a href="#"><h3>11/09/2016</h3></a>
-      </div><!-- .dev_log -->
+      <div class="container flex-parent-rw">
+        <div class="dev_log flex-child-mdl content-block">
+          <a href="#"><h3>13/09/2016</h3></a>
+        </div><!-- .dev_log -->
+        <div class="dev_log flex-child-mdl content-block">
+          <a href="#"><h3>12/09/2016</h3></a>
+        </div><!-- .dev_log -->
+        <div class="dev_log flex-child-mdl content-block">
+          <a href="#"><h3>11/09/2016</h3></a>
+        </div><!-- .dev_log -->
+      </div><!-- .container .flex-rw -->
       <a href="#">Even more logs</a>
     </section><!-- #dev_log .dev_log-area -->
-    <section id="social" class="social-area">
-      <h2>I'm also on:</h2>
-      <ul class="horizontal-list">
-        <li><a href="#" class="social-twitter">Twitter</a></li>
-        <li><a href="#" class="social-github">GitHub</a></li>
-        <li><a href="#" class="social-codepen">CodePen</a></li>
-      </ul>
+    <section id="contact" class="contact-area pd">
+      <h2>If you like what you see...</h2>
+      <a href="#" class="button button-lg">Say hi</a>
     </section>
   </div><!-- #main .site-main -->
   <footer id="colophon" class="site-footer" role="contentinfo">
     <nav role="navigation" class="site-navigation main-navigation">
-      <ul class="horizontal-list">
-        <li><a href="about.html">About</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Dev logs</a></li>
+      <ul class="horizontal-list flex-parent-rw">
+        <li class="flex-child-mdl"><a href="about.html">About</a></li>
+        <li class="flex-child-mdl"><a href="#">Portfolio</a></li>
+        <li class="flex-child-mdl"><a href="#">Dev logs</a></li>
       </ul>
     </nav><!-- .site-navigation .main-navigation -->
   </footer><!-- #colophon .site-footer -->
