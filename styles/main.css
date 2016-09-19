@@ -123,11 +123,15 @@ li{
 	padding: 0 0.5rem;
 }
 div#main{
-	margin-bottom: 2rem;
+	margin-bottom: 3rem;
 }
 .flex-parent-rw{
 	display: flex;
 	-webkit-flex-flow: row wrap;
+}
+.flex-parent-clm{
+	display: flex;
+	flex-flow: column;
 }
 .flex-child-mdl {
 	margin: 0;
@@ -146,8 +150,15 @@ section .content-block{
 	display: flex;
 	flex-wrap: nowrap;
 }
-horizontal-list>li{
-	text-align: center;
+.button{
+	display: inline-block;
+	padding: 0.5rem;
+	border: 1px solid black;
+	text-decoration: none;
+}
+.button-lg{
+	padding: 1rem;
+	margin: auto;
 }
 footer{
 	background-color: black;
@@ -155,8 +166,9 @@ footer{
 	position: fixed;
 	bottom: 0;
 }
-footer nav {
-	bottom: 2rem;
+footer nav ul{
+	display: inline-block;
+	padding: 0.5rem;
 }
 footer nav ul li a{
 	color: white;
@@ -180,4 +192,18 @@ section#portfolio h3, section#dev_logs h3{
 section#hero p{
 	font-size: 1.25rem;
 	text-align: center;
+}
+
+/*///////	2.1.2 Layout 			///////////////////////////////////*/
+
+header#masthead{
+	height: 100vh;
+	text-align: center;
+	justify-content: center;
+}
+section{
+	margin-bottom: 2rem;
+}
+section .container{
+	margin: 1rem 0;
 }

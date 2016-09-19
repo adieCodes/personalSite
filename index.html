@@ -12,19 +12,17 @@
 </head>
 
 <body>
-  <header id="masthead" class="site-header pd" role="banner">
-     <h1 id="logo">Adie.codes</h1>
+  <header id="masthead" class="site-header flex-parent-clm" role="banner">
+     <h1 id="logo" class="logo">Adie.codes</h1>
+     <p>Mobile-first Responsive Front-Ends <span class="de-emphasis">using</span></p>
+     <ul class="horizontal-list flex-parent-rw">
+       <li class="flex-child-mdl">HTML</li>
+       <li class="flex-child-mdl">CSS</li>
+       <li class="flex-child-mdl">JavaScript</li>
+       <li class="flex-child-mdl">WordPress</li>
+     </ul>
   </header><!-- #masthead .site-header -->
   <div id="main" class="site-main">
-    <section id="hero">
-      <p>Mobile-first Responsive Front-Ends <span class="de-emphasis">using</span></p>
-      <ul class="horizontal-list flex-parent-rw">
-        <li class="flex-child-mdl">HTML</li>
-        <li class="flex-child-mdl">CSS</li>
-        <li class="flex-child-mdl">JavaScript</li>
-        <li class="flex-child-mdl">WordPress</li>
-      </ul>
-    </section>
     <section id="portfolio" class="portfolio-area">
       <h2 class="pd">Check out my work...</h2>
       <p class="pd">I've completed some projects to demonstrate my knowledge, have a look and let me know what you think:</p>
@@ -63,8 +61,10 @@
     </section><!-- #dev_log .dev_log-area -->
     <section id="contact" class="contact-area pd">
       <h2>If you like what you see...</h2>
-      <a href="#" class="button button-lg">Say hi</a>
-    </section>
+      <div class="container flex-parent-rw">
+        <a href="#" class="button button-lg">Say hi</a>
+      </div><!-- .container .flex-parent-rw -->
+    </section><!-- #contact .contact-area .pd -->
   </div><!-- #main .site-main -->
   <footer id="colophon" class="site-footer" role="contentinfo">
     <nav role="navigation" class="site-navigation main-navigation">
