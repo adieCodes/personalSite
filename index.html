@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <header id="masthead" class="site-header flex-parent-clm" role="banner">
+  <header id="masthead" class="site-header flex-parent-clm brand" role="banner">
      <h1 id="logo" class="logo">Adie.codes</h1>
      <p>Mobile-first Responsive Front-Ends <span class="de-emphasis">using</span></p>
      <ul class="horizontal-list flex-parent-rw">
@@ -28,13 +28,13 @@
       <h2 class="pd">Check out my work...</h2>
       <p class="pd">I've completed some projects to demonstrate my knowledge, have a look and let me know what you think:</p>
       <div class="container flex-parent-rw">
-        <div class="portfolio-project flex-child-mdl content-block">
-           <h3>Wikipedia Viewer</h3>
-           <a href="portfolio/portfolio-wikipediaViewer.html" class="case-study">Case study</a>
+        <div class="flex-child-mdl media media--project1">
+           <h3 class="media__header">Wikipedia Viewer</h3>
+           <a href="portfolio/portfolio-wikipediaViewer.html" class="media__link">Case study</a>
         </div><!-- .portfolio-project -->
-        <div class="portfolio-project flex-child-mdl content-block">
-          <h3>Pomodoro Timer</h3>
-          <a href="portfolio/portfolio-pomodoro.html" class="case-study">Case Study</a>
+        <div class="flex-child-mdl media media--project2">
+          <h3 class="media__header">Pomodoro Timer</h3>
+          <a href="portfolio/portfolio-pomodoro.html" class="media__link">Case Study</a>
         </div><!-- .portfolio-project -->
       </div><!-- .container .flex-rw -->
       <p class="pd">You can see more on:</p>
@@ -48,14 +48,14 @@
       <h2>I logs what I thinks...</h2>
       <p>It helps me stay on track, recall solutions to problems I've already faced and  identify any areas for further learning. My latest are here:</p>
       <div class="container flex-parent-rw">
-        <div class="dev_log flex-child-mdl content-block">
-          <a href="#"><h3>13/09/2016</h3></a>
+        <div class="dev_log flex-child-mdl media media--log">
+          <a href="#" class="media__link"><h3 class="media__header">13/09/2016</h3></a>
         </div><!-- .dev_log -->
-        <div class="dev_log flex-child-mdl content-block">
-          <a href="#"><h3>12/09/2016</h3></a>
+        <div class="dev_log flex-child-mdl media media--log">
+          <a href="#" class="media__link"><h3 class="media__header">12/09/2016</h3></a>
         </div><!-- .dev_log -->
-        <div class="dev_log flex-child-mdl content-block">
-          <a href="#"><h3>11/09/2016</h3></a>
+        <div class="dev_log flex-child-mdl media media--log">
+          <a href="#" class="media__link"><h3 class="media__header">11/09/2016</h3></a>
         </div><!-- .dev_log -->
       </div><!-- .container .flex-rw -->
       <a href="#">Even more logs</a>
@@ -63,12 +63,13 @@
     <section id="contact" class="contact-area pd">
       <h2>If you like what you see...</h2>
       <div class="container flex-parent-rw">
-        <a href="#" class="button button-lg">Say hi</a>
+        <a href="#" class="btn btn--lg brand--cta">Say hi</a>
       </div><!-- .container .flex-parent-rw -->
     </section><!-- #contact .contact-area .pd -->
   </div><!-- #main .site-main -->
   <footer id="colophon" class="site-footer" role="contentinfo">
     <nav role="navigation" class="site-navigation main-navigation">
+      <h2 class="visuallyhidden">Navigation</h2>
       <ul class="horizontal-list flex-parent-rw">
         <li class="flex-child-mdl"><a href="about.html">About</a></li>
         <li class="flex-child-mdl"><a href="#">Portfolio</a></li>
