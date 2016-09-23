@@ -510,6 +510,7 @@ ol{
 .flex-parent-rw{
 	display: flex;
 	-webkit-flex-flow: row wrap;
+  justify-content: center;
 }
 .flex-parent-clm{
 	display: flex;
@@ -550,14 +551,21 @@ body{
 	display: inline-block;
 	padding: 0.25em 0.5em;
 	border: 1px solid black;
-	text-decoration: none;
-	background-color: #ff8049;
-	border: 0.2em solid #ff5d16;
-	color: white;
+  text-decoration: none;
 }
-.btn--lg{
-	padding: 0.5em 1em;
-	margin: auto;
+.btn--sm{
+  background-color: none;
+  border: none;
+  background-color: #ffc7af;
+  border-bottom: 0.2em solid #ff5d16;
+}
+.btn--cta{
+  width: 5em;
+  background-color: #ff8049;
+  border: 0.2em solid #ff5d16;
+  margin: 1rem;
+  font-size: 1.5rem;
+  color: white;
 }
 footer{
 	background-color: #9a6ebe;
