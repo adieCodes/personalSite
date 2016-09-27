@@ -553,13 +553,13 @@ body{
 .btn{
 	display: inline-block;
 	padding: 0.25em 0.5em;
-	border: 1px solid black;
   text-decoration: none;
 }
 .btn--sm{
   background-color: none;
   border: none;
   background-color: #ffc7af;
+  color: #464646;
   border-bottom: 0.2em solid #ff5d16;
 }
 .btn--cta{
@@ -627,6 +627,23 @@ section#hero p{
   max-width: 20rem;
   margin: 0 auto;
 }
+.header .list li:before{
+  content: "\00B7";
+  margin-right: 0.75em;
+}
+.header .list li:first-child:before{
+  content: "";
+  padding: 0;
+}
+.header .contentIndicator:after{
+  content: ">";
+}
+.contentIndicator{
+  font-size: 2rem;
+  font-weight: 100;
+  transform: scale(2, 1) rotate(90deg);
+  padding-left: 3rem;
+}
 section{
 	margin-bottom: 2rem;
 }
@@ -640,23 +657,25 @@ section .container{
   flex-direction: column;
 	min-height: 10rem;
   justify-content: space-between;
+  text-decoration: none;
 }
 .preview__link{
-  padding-bottom: 1rem;
+  margin: 0 0 1rem 0;
+  padding-bottom: 0;
 }
 .preview--project1{
   background: #f2434f;
   background-image: url("../images/wikipedia.svg");
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: 7rem;
+  background-position: center 1.5rem;
+  background-size: 9rem;
 }
 .preview--project2{
   background: #f49c3d;
   background-image: url("../images/clock.svg");
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: 4rem;
+  background-position: center 3rem;
+  background-size: 6rem;
 }
 .preview--log{
   background: white;
