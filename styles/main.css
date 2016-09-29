@@ -627,13 +627,20 @@ section#hero p{
   max-width: 20rem;
   margin: 0 auto;
 }
+.header .list--horizontal{
+  justify-content: center;
+}
+.header .flex-child-mdl{
+  flex-grow: 0;
+}
 .header .list li:before{
   content: "\00B7";
-  margin-right: 0.75em;
+  margin: 0 0.75em;
 }
 .header .list li:first-child:before{
   content: "";
   padding: 0;
+  margin-left: -0.25rem;
 }
 .header .contentIndicator:after{
   content: ">";
