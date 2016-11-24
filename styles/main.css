@@ -1,5 +1,39 @@
+body {
+  font-size: 16px;
+}
+
 .hero object {
   background-color: black;
   width: 25%;
   height: 10rem;
+}
+
+.project {
+  height: 10rem;
+  width: 15rem;
+}
+
+.project__title {
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.project__link {
+  color: white;
+  display: block;
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.project-wikipedia {
+  background: #f2434f;
+}
+
+.project-tbc {
+  background: #3b86d5;
+}
+
+.project-pomodoro {
+  background: #f49c3d;
 }
