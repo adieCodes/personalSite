@@ -8,41 +8,46 @@
   <link href="styles/main.css" rel="stylesheet">
 </head>
 <body>
-  <section class="hero">
-    <object type="image/svg+xml" data="images/logoLine.svg" class="logo">
+  <section class="hero container">
+    <object type="image/svg+xml" data="images/logoLine.svg" class="logo col-12">
        <h1>Adie.codes</h1>
     </object>
-    <p>Mobile-first Responsive Front-Ends using:</p>
-     <ul class="list list--horizontal">
-       <li class="list__item">HTML</li>
-       <li class="list__item">CSS</li>
-       <li class="list__item">JavaScript</li>
-       <li class="list__item">WordPress</li>
-    </ul>
+    <div class="hero--text col-12"
+      <p>Mobile-first Responsive Front-Ends using:</p>
+      <ul class="list list--horizontal">
+         <li class="list__item">HTML</li>
+         <li class="list__item">CSS</li>
+         <li class="list__item">JavaScript</li>
+         <li class="list__item">WordPress</li>
+      </ul>
+    </div><!-- .hero--text .col-12 -->
   </section><!-- .hero -->
-  <section class="featured-work">
-    <h2>Featured Work</h2>
-    <div class="project project-wikipedia">
+  <section class="featured-work container">
+    <h2 class="col-12">Featured Work</h2>
+    <div class="col-4 project project-wikipedia">
       <img src="" alt="">
       <h3 class="project__title">Wikipedia viewer</h3>
       <a href="#" class="project__link">Case Study</a>
     </div>
-    <div class="project project-pomodoro">
+    <div class="col-4 project project-pomodoro">
       <img src="" alt="">
       <h3 class="project__title">Pomodoro Timer</h3>
       <a href="#" class="project__link">Case Study</a>
     </div>
-    <div class="project project-tbc">
+    <div class="col-4 project project-tbc">
       <img src="" alt="">
       <h3 class="project__title">Coming soon...</h3>
       <a href="#" class="project__link">Case Study</a>
     </div>
   </section><!-- .featured-work -->
   <footer class="social">
-    <ul class="social-links">
-      <li class="social-links--li twitter">Twitter</li>
-      <li class="social-links--li github">Github</li>
-      <li class="social-links--li codepen">Codepen</li>
+    <div class="container">
+      <h2 class="col-12">Links</h2>
+    </div><!-- .container -->
+    <ul class="social__links container">
+      <li class="col-4 social__link twitter">Twitter</li>
+      <li class="col-4 social__link github">Github</li>
+      <li class="col-4 social__link codepen">Codepen</li>
     </ul>
   </footer><!-- .social -->
 </body>
