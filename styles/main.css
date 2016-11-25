@@ -539,9 +539,41 @@ body {
   width: 100%;
 }
 
+.hero {
+  background-color: #6ebeb9;
+  color: white;
+  height: 80vh;
+}
+
+.hero .container {
+  box-sizing: border-box;
+  padding-top: 5rem;
+}
+
+
 .logo {
-  background-color: black;
-  height: 10rem;
+  max-width: 25rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.skills {
+  padding-left: 0;
+}
+
+.skill__item {
+  display: inline;
+}
+
+.skill__item:before {
+  content: "●";
+  font-size: 0.5rem;
+  vertical-align: middle;
+  padding-right: 0.3rem;
+}
+
+.skill__item:first-child:before {
+  content: "";
 }
 
 .project {
