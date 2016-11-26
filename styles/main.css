@@ -576,30 +576,40 @@ body {
 }
 
 .project {
-  height: 10rem;
+  margin: 1.5rem;
+  box-shadow: 10px 10px 15px 0px rgba(204,204,204,0.75);
+  border-radius: 0.4rem;
+  border: 1px solid #ccc;
 }
 
-.project__title {
-  color: white;
-  padding-top: 0.5rem;
+.project__image {
+  height: 10rem;
+  border-radius: 0.4rem 0.4rem 0 0;
+  /*border-radius: 0.4rem 0.4rem 0 0;
+  border-right: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;*/
+}
+
+.project__info {
+  /*border: 1px solid #ccc;*/
 }
 
 .project__link {
-  color: white;
-  display: block;
-  padding-top: 4rem;
+  display: inline-block;
+  padding: 3.5rem 0 1.5rem 0;
 }
 
-.project-wikipedia {
+.project-wikipedia .project__image {
   background: #f2434f;
 }
 
-.project-tbc {
-  background: #3b86d5;
+.project-pomodoro .project__image {
+  background: #f49c3d;
 }
 
-.project-pomodoro {
-  background: #f49c3d;
+.project-tbc .project__image {
+  background: #3b86d5;
 }
 
 .social__links {
@@ -611,7 +621,20 @@ body {
 }
 
 @media screen and (max-width: 500px) {
+
   .col-4.project {
     width: 100%;
+  }
+
+  .project__image {
+    width: calc(33.3% - 1px);
+    float: left;
+    border-radius: 0.3rem 0 0 0.3rem;
+    border-right: 1px solid #ccc;
+  }
+
+  .project__info {
+    width: 66.6%;
+    float: left;
   }
 }
