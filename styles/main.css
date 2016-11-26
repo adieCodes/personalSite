@@ -546,18 +546,18 @@ body {
 .hero {
   background-color: #6ebeb9;
   color: white;
-  height: 80vh;
 }
 
 .hero .container {
-  box-sizing: border-box;
-  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+  align-items: center;
+  justify-content: center;
 }
 
 .logo {
-  max-width: 25rem;
-  margin: 0 auto;
-  text-align: center;
+  max-width: 20rem;
 }
 
 .skills {
@@ -613,12 +613,24 @@ body {
   background: #3b86d5;
 }
 
-.social__links {
-  padding-left: 0;
+.more-work {
+  background: green;
 }
 
-.social__link {
-  display: inline;
+.more-work .container {
+  min-height: 50vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact {
+  background: skyblue;
+}
+
+.contact .container {
+  min-height: 50vh;
+  align-items: center;
+  justify-content: center;
 }
 
 @media screen and (max-width: 500px) {
