@@ -495,7 +495,7 @@ body {
   text-align: center;
 }
 
-.col-1 {
+/*.col-1 {
   width: 8.33%;
 }
 
@@ -541,7 +541,7 @@ body {
 
 .col-12 {
   width: 100%;
-}
+}*/
 
 .hero {
   background-color: #6ebeb9;
@@ -580,6 +580,7 @@ body {
 }
 
 .project {
+  width: 100%;
   margin: 1.5rem;
   box-shadow: 10px 10px 15px 0px rgba(204,204,204,0.75);
   border-radius: 0.4rem;
@@ -597,8 +598,20 @@ body {
 }
 
 .project__image {
-  height: 10rem;
-  border-radius: 0.4rem 0.4rem 0 0;
+  box-sizing: border-box;
+  height: 8rem;
+  width: 33.3%;
+  float: left;
+  border-radius: 0.3rem 0 0 0.3rem;
+  border-right: 1px solid #ccc;
+}
+
+.project__info {
+  box-sizing: border-box;
+  text-align: left;
+  width: 66.6%;
+  float: left;
+  padding: 1rem 0 0 1rem;
 }
 
 .project-wikipedia .project__image {
@@ -631,25 +644,4 @@ body {
   min-height: 50vh;
   align-items: center;
   justify-content: center;
-}
-
-@media screen and (max-width: 500px) {
-
-  .col-4.project {
-    width: 100%;
-  }
-
-  .project__image {
-    width: calc(33.3% - 1px);
-    float: left;
-    border-radius: 0.3rem 0 0 0.3rem;
-    border-right: 1px solid #ccc;
-  }
-
-  .project__info {
-    text-align: left;
-    width: calc(66.6% - 1rem);
-    float: left;
-    padding: 2rem 0 0 1rem;
-  }
 }
