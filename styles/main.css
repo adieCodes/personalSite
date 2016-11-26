@@ -550,7 +550,6 @@ body {
   padding-top: 5rem;
 }
 
-
 .logo {
   max-width: 25rem;
   margin: 0 auto;
@@ -609,4 +608,10 @@ body {
 
 .social__link {
   display: inline;
+}
+
+@media screen and (max-width: 500px) {
+  .col-4.project {
+    width: 100%;
+  }
 }
