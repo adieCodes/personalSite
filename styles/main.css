@@ -584,10 +584,16 @@ body {
   box-shadow: 10px 10px 15px 0px rgba(204,204,204,0.75);
   border-radius: 0.4rem;
   border: 1px solid #ccc;
+  transition: all 0.2s ease-in-out;
 }
 
 .project__link {
   color: black;
+  text-decoration: none;
+}
+
+.project:hover {
+  transform: scale(1.05);
 }
 
 .project__image {
