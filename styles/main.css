@@ -498,6 +498,22 @@ main, main h1, main h2, main h3, main h4, main h5, main h6, main p, main a, main
   display: flex;
   flex-wrap: wrap;
   text-align: center;
+  flex-direction: column;
+}
+
+.btn {
+  display: block;
+  margin: 0 1em;
+  padding: 1em 2em;
+  border: 1px solid white;
+  border-radius: 0.25em;
+  text-decoration: none;
+  /*TODO: change box-shadow color*/
+  box-shadow: 0.3em 0.3em 0.5em 0px rgba(74,74,74,0.75);
+}
+
+.btn--cta {
+
 }
 
 /*.col-1 {
@@ -555,7 +571,6 @@ main, main h1, main h2, main h3, main h4, main h5, main h6, main p, main a, main
 
 .hero .container {
   display: flex;
-  flex-direction: column;
   min-height: 80vh;
   align-items: center;
   justify-content: center;
@@ -590,9 +605,8 @@ main, main h1, main h2, main h3, main h4, main h5, main h6, main p, main a, main
 }
 
 .project {
-  width: 100%;
   margin: 1.5rem;
-  box-shadow: 10px 10px 15px 0px rgba(204,204,204,0.75);
+  box-shadow: 0.6em 0.6em 0.75em 0px rgba(204,204,204,0.75);
   border-radius: 0.4rem;
   border: 1px solid #ccc;
   transition: all 0.2s ease-in-out;
@@ -619,7 +633,7 @@ main, main h1, main h2, main h3, main h4, main h5, main h6, main p, main a, main
 
 .project__image {
   box-sizing: border-box;
-  height: 8rem;
+  height: 10rem;
   width: 33.3%;
   float: left;
   border-radius: 0.3rem 0 0 0.3rem;
@@ -631,7 +645,7 @@ main, main h1, main h2, main h3, main h4, main h5, main h6, main p, main a, main
   text-align: left;
   width: 66.6%;
   float: left;
-  padding: 1.25rem 0 0 1rem;
+  padding: 2.25rem 0 0 1rem;
 }
 
 .project-wikipedia .project__image {
@@ -652,6 +666,7 @@ main, main h1, main h2, main h3, main h4, main h5, main h6, main p, main a, main
 
 .more-work .container {
   min-height: 50vh;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
