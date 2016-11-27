@@ -655,6 +655,7 @@ main, main h1, main h2, main h3, main h4, main h5, main h6, main p, main a, main
 .project-wikipedia .project__image {
   background: #f2434f;
   background-image: url(../images/wikipedia.svg);
+  background-size: 6rem;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -662,7 +663,7 @@ main, main h1, main h2, main h3, main h4, main h5, main h6, main p, main a, main
 .project-pomodoro .project__image {
   background: #f49c3d;
   background-image: url(../images/clock.svg);
-  background-size: 75%;
+  background-size: 4rem;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -670,7 +671,7 @@ main, main h1, main h2, main h3, main h4, main h5, main h6, main p, main a, main
 .project-reaction .project__image {
   background: #3b86d5;
   background-image: url(../images/target.svg);
-  background-size: 66%;
+  background-size: 4rem;
   background-position: center;
   background-repeat: no-repeat;
 }
