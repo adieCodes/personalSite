@@ -505,11 +505,9 @@ main, main h1, main h2, main h3, main h4, main h5, main h6, main p, main a, main
   display: block;
   margin: 0 1em;
   padding: 1em 2em;
-  border: 1px solid white;
   border-radius: 0.25em;
   text-decoration: none;
-  /*TODO: change box-shadow color*/
-  box-shadow: 0.3em 0.3em 0.5em 0px rgba(74,74,74,0.75);
+  box-shadow: 0.3em 0.3em 0.5em 0px rgba(204,204,204,0.75);
 }
 
 .btn--cta {
@@ -661,7 +659,11 @@ main, main h1, main h2, main h3, main h4, main h5, main h6, main p, main a, main
 }
 
 .more-work {
-  background: green;
+  background: #f5f5f5;
+  background-image: url(../images/GitHub-Mark-120px-plus.png);
+  background-repeat: no-repeat;
+  background-position: 50% 15%;
+  padding-top: 4rem;
 }
 
 .more-work .container {
@@ -671,12 +673,34 @@ main, main h1, main h2, main h3, main h4, main h5, main h6, main p, main a, main
   justify-content: center;
 }
 
+.more-work .btn--cta {
+  /* Mirrored button colors from [GitHub Style Guide](http://primercss.io/buttons/) */
+  background-color: #60b044;
+  background-image: linear-gradient(#8add6d, #60b044);
+  color: #fff;
+}
+
 .contact {
-  background: skyblue;
+  /* Mirrored color scheme from [Twitter Brand Guide](https://brand.twitter.com/en.html)*/
+  background: #1DA1F2;
+  background-image: url(../images/Twitter_Logo_White_on_Blue.png);
+  background-repeat: no-repeat;
+  background-size: 10rem;
+  background-position: 50% 10%;
+  padding-top: 3rem;
+}
+
+.contact h1, .contact h2, .contact h3, .contact h4, .contact h5, .contact h6, .contact p, .contact li, .contact a {
+  color: white;
 }
 
 .contact .container {
   min-height: 50vh;
   align-items: center;
   justify-content: center;
+}
+
+.contact .btn--cta {
+  border: 1px solid white;
+  box-shadow: 0.3em 0.3em 0.5em 0px #0c85d0;
 }
