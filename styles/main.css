@@ -499,6 +499,7 @@ main, main h1, main h2, main h3, main h4, main h5, main h6, main p, main a, main
   flex-wrap: wrap;
   text-align: center;
   flex-direction: column;
+  margin: 0 1rem;
 }
 
 .btn {
@@ -508,10 +509,6 @@ main, main h1, main h2, main h3, main h4, main h5, main h6, main p, main a, main
   border-radius: 0.25em;
   text-decoration: none;
   box-shadow: 0.3em 0.3em 0.5em 0px rgba(204,204,204,0.75);
-}
-
-.btn--cta {
-
 }
 
 /*.col-1 {
@@ -575,8 +572,9 @@ main, main h1, main h2, main h3, main h4, main h5, main h6, main p, main a, main
 }
 
 .hero__lead {
-  text-transform: uppercase;
   font-weight: 300;
+  padding-bottom: 2.25rem;
+  border-bottom: 1px dotted white;
 }
 
 .logo {
@@ -589,6 +587,7 @@ main, main h1, main h2, main h3, main h4, main h5, main h6, main p, main a, main
 
 .skill__item {
   display: inline;
+  font-weight: 300;
 }
 
 .skill__item:before {
@@ -602,8 +601,12 @@ main, main h1, main h2, main h3, main h4, main h5, main h6, main p, main a, main
   content: "";
 }
 
+.featured-work {
+  margin: 1.5rem 0;
+}
+
 .project {
-  margin: 1.5rem;
+  margin: 1.5rem 0;
   box-shadow: 0.6em 0.6em 0.75em 0px rgba(204,204,204,0.75);
   border-radius: 0.4rem;
   border: 1px solid #ccc;
@@ -615,8 +618,10 @@ main, main h1, main h2, main h3, main h4, main h5, main h6, main p, main a, main
 }
 
 .project__title {
+  box-sizing: border-box;
   font-weight: 300;
   margin-bottom: 0;
+  padding-top: 0.75rem;
 }
 
 .project__cta {
@@ -631,7 +636,7 @@ main, main h1, main h2, main h3, main h4, main h5, main h6, main p, main a, main
 
 .project__image {
   box-sizing: border-box;
-  height: 10rem;
+  height: 7rem;
   width: 33.3%;
   float: left;
   border-radius: 0.3rem 0 0 0.3rem;
@@ -643,7 +648,8 @@ main, main h1, main h2, main h3, main h4, main h5, main h6, main p, main a, main
   text-align: left;
   width: 66.6%;
   float: left;
-  padding: 2.25rem 0 0 1rem;
+  padding-left: 1rem;
+  max-height: 7rem;
 }
 
 .project-wikipedia .project__image {
@@ -662,8 +668,8 @@ main, main h1, main h2, main h3, main h4, main h5, main h6, main p, main a, main
   background: #f5f5f5;
   background-image: url(../images/GitHub-Mark-120px-plus.png);
   background-repeat: no-repeat;
-  background-position: 50% 15%;
-  padding-top: 4rem;
+  background-position: 50% 25%;
+  padding-top: 6rem;
 }
 
 .more-work .container {
@@ -686,8 +692,8 @@ main, main h1, main h2, main h3, main h4, main h5, main h6, main p, main a, main
   background-image: url(../images/Twitter_Logo_White_on_Blue.png);
   background-repeat: no-repeat;
   background-size: 10rem;
-  background-position: 50% 10%;
-  padding-top: 3rem;
+  background-position: 50% 25%;
+  padding-top: 5.5rem;
 }
 
 .contact h1, .contact h2, .contact h3, .contact h4, .contact h5, .contact h6, .contact p, .contact li, .contact a {
