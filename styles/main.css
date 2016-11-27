@@ -486,6 +486,10 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+main, main h1, main h2, main h3, main h4, main h5, main h6, main p, main a, main span {
+  color: #333;
+}
+
 .hide {
   display: none;
 }
@@ -557,6 +561,11 @@ body {
   justify-content: center;
 }
 
+.hero__lead {
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
 .logo {
   max-width: 20rem;
 }
@@ -590,8 +599,18 @@ body {
 }
 
 .project__link {
-  color: black;
   text-decoration: none;
+}
+
+.project__title {
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+.project__cta {
+  font-size: 0.9rem;
+  color: #999;
+  margin-top: 0.5rem;
 }
 
 .project:hover {
@@ -612,7 +631,7 @@ body {
   text-align: left;
   width: 66.6%;
   float: left;
-  padding: 1rem 0 0 1rem;
+  padding: 1.25rem 0 0 1rem;
 }
 
 .project-wikipedia .project__image {
