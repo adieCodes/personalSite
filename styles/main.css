@@ -486,7 +486,7 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-main, main h1, main h2, main h3, main h4, main h5, main h6, main p, main a, main span {
+.main-content, .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6, .main-content p, .main-content a, .main-content span {
   color: #333;
 }
 
@@ -575,14 +575,13 @@ main, main h1, main h2, main h3, main h4, main h5, main h6, main p, main a, main
   text-decoration: none;
 }
 
-.project__title {
+.project .project__title {
   box-sizing: border-box;
-  font-weight: 300;
   margin-bottom: 0;
   padding-top: 0.75rem;
 }
 
-.project__cta {
+.project .project__cta {
   font-size: 0.9rem;
   color: #999;
   margin-top: 0.5rem;
