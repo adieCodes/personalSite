@@ -605,6 +605,11 @@ main, main h1, main h2, main h3, main h4, main h5, main h6, main p, main a, main
   margin: 1.5rem 0;
 }
 
+.featured-work__header {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
 .project {
   margin: 1.5rem 0;
   box-shadow: 0.6em 0.6em 0.75em 0px rgba(204,204,204,0.75);
