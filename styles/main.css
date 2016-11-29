@@ -514,6 +514,11 @@ body {
   border-radius: 0.25em;
   text-decoration: none;
   box-shadow: 0.3em 0.3em 0.5em 0px rgba(204,204,204,0.75);
+  transition: all 0.1s ease-in-out;
+}
+
+.btn:hover {
+  box-shadow: 0.15em 0.15em 0.25em 0px rgba(204,204,204,0.75);
 }
 
 .hero {
@@ -672,6 +677,10 @@ body {
   border: 1px solid white;
   background-color: #0c85d0;
   box-shadow: 0.3em 0.3em 0.5em 0px #0967a0;
+}
+
+.contact .btn--cta:hover {
+  box-shadow: 0.15em 0.15em 0.25em 0px #0967a0;
 }
 
 @media screen and (min-width: 500px) {
