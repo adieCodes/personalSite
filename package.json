@@ -1,0 +1,29 @@
+{
+  "name": "final_project",
+  "version": "1.0.0",
+  "description": "Re-design of my home site as part of [Udacity Front-End Web Developer Nanodegree](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001?v=fe1).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adieCodes/personalSite.git"
+  },
+  "keywords": [
+    "udacity",
+    "personal",
+    "profile",
+    "portfolio"
+  ],
+  "author": "@adie_codes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adieCodes/personalSite/issues"
+  },
+  "homepage": "https://github.com/adieCodes/personalSite#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.1",
+    "gulp": "^3.9.1"
+  }
+}
